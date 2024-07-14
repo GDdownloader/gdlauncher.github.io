@@ -1,6 +1,6 @@
 @font-face {
     font-family: "MinecraftTen";
-    src: url("MinecraftTen-VGORe.ttf");
+    src: url("PUSAB___.otf");
 }
 
 html,body{
@@ -75,3 +75,37 @@ nav{
     margin-left:23vw;
 }
 
+#nextto{
+   width:70vw; 
+   margin-left:15vw;
+   text-align:center;
+}
+
+#ok{
+    width: 98vw;
+    animation: change 5s infinite ease-in-out;
+    background-repeat: no-repeat;
+
+}
+
+@keyframes change{
+    0%{
+        background-repeat: no-repeat;
+        background-image: url("1.png");
+    }
+
+    25%{
+        background-repeat: no-repeat;
+        background-image: url("2.png");
+    }
+
+    50%{
+        background-repeat: no-repeat;
+        background-image: url("3.png");
+    }
+
+    100%{
+        background-repeat: no-repeat;
+        background-image: url("1.png");
+    }
+}

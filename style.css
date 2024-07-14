@@ -109,3 +109,13 @@ nav{
         background-image: url("1.png");
     }
 }
+
+#quest{
+    text-align: center;
+    margin-left: 15vh;
+}
+
+#questanswer{
+    text-align: center;
+    margin-left: 15vh;
+}

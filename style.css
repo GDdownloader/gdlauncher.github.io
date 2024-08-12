@@ -99,7 +99,12 @@ nav{
         background-image: url("2.png");
     }
 
-    50%{
+    60%{
+        background-repeat: no-repeat;
+        background-image: url("3.png");
+    }
+
+    80%{
         background-repeat: no-repeat;
         background-image: url("3.png");
     }
